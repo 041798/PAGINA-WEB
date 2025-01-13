@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IBS Security</title>
+    <title>Productos - IBS Security</title>
     <style>
-        /* Estilos generales */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -17,7 +16,6 @@
             margin: 0.5em 0;
         }
 
-        /* Encabezado */
         header {
             background-color: #333;
             color: #fff;
@@ -42,33 +40,45 @@
             text-decoration: none;
         }
 
-        /* Sección Hero */
-        .hero {
-            background-color: #f1f1f1;
-            padding: 60px 20px;
+        .productos-categorias {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .categoria-item {
+            width: 30%;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
 
-        .hero h2 {
-            font-size: 2.5em;
+        .categoria-item img {
+            width: 100%;
+            height: auto;
         }
 
-        .hero .btn-primary {
+        .categoria-item h3 {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        .categoria-item p {
+            margin: 10px 0;
+        }
+
+        .categoria-item button {
             background-color: #333;
             color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
         }
 
-        /* Servicios */
-        .servicios {
-            padding: 40px 20px;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
-
-        /* Pie de página */
         footer {
             background-color: #333;
             color: #fff;
@@ -99,27 +109,37 @@
       </ul>
     </nav>
   </header>
-  
-  <!-- Sección Principal (Hero) -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h2>Protege lo que más importa con nuestras soluciones de seguridad</h2>
-      <p>Productos de seguridad confiables y fáciles de usar para tu hogar o negocio.</p>
-      <a href="productos.html" class="btn-primary">Ver productos</a> <!-- Enlace a la página de productos -->
+
+  <!-- Sección de Categorías de Productos -->
+  <section class="productos-categorias">
+    <h2>Productos Destacados</h2>
+
+    <!-- Categoría 1: Cámaras de Seguridad -->
+    <div class="categoria-item">
+      <img src="https://via.placeholder.com/300x200" alt="Cámara de seguridad">
+      <h3>Cámaras de Seguridad</h3>
+      <p>Elige entre nuestras cámaras de seguridad con visión nocturna, detección de movimiento y monitoreo remoto.</p>
+      <button>Ver más</button>
     </div>
+
+    <!-- Categoría 2: Sistemas de Alarmas -->
+    <div class="categoria-item">
+      <img src="https://via.placeholder.com/300x200" alt="Sistema de alarma">
+      <h3>Sistemas de Alarmas</h3>
+      <p>Protege tu hogar o negocio con nuestros sistemas de alarma avanzados, fáciles de instalar y con alertas en tiempo real.</p>
+      <button>Ver más</button>
+    </div>
+
+    <!-- Categoría 3: Cerraduras Inteligentes -->
+    <div class="categoria-item">
+      <img src="https://via.placeholder.com/300x200" alt="Cerradura inteligente">
+      <h3>Cerraduras Inteligentes</h3>
+      <p>Cerraduras electrónicas con acceso mediante huella dactilar, control remoto y monitoreo a través de tu móvil.</p>
+      <button>Ver más</button>
+    </div>
+
   </section>
-  
-  <!-- Servicios -->
-  <section id="servicios" class="servicios">
-    <h2>Servicios</h2>
-    <p>Además de nuestros productos, ofrecemos servicios de instalación y soporte técnico.</p>
-    <ul>
-      <li>Asesoría personalizada en sistemas de seguridad.</li>
-      <li>Instalación profesional de cámaras y alarmas.</li>
-      <li>Mantenimiento preventivo de equipos de seguridad.</li>
-    </ul>
-  </section>
-  
+
   <!-- Pie de página -->
   <footer>
     <p>&copy; 2025 IBS Security. Todos los derechos reservados.</p>
@@ -130,4 +150,3 @@
 
 </body>
 </html>
-
