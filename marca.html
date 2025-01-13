@@ -1,152 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos - IBS Security</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        h1, h2, h3, p {
-            margin: 0.5em 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header .logo h1 {
-            margin: 0;
-        }
-
-        header nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-        }
-
-        header nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .productos-categorias {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-
-        .categoria-item {
-            width: 30%;
-            margin: 10px 0;
-            padding: 10px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .categoria-item img {
-            width: 100%;
-            height: auto;
-        }
-
-        .categoria-item h3 {
-            font-size: 1.5em;
-            margin-top: 10px;
-        }
-
-        .categoria-item p {
-            margin: 10px 0;
-        }
-
-        .categoria-item button {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        footer .socials a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/images/Acting Director (7).png" type="image/x-icon">
+    <title>Marcas - BamTech</title>
 </head>
+
 <body>
-  
-  <!-- Encabezado -->
-  <header>
-    <div class="logo">
-      <h1>IBS Security</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página principal -->
-        <li><a href="productos.html">Productos</a></li> <!-- Enlace a la página de productos -->
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand" style="display: flex; flex-direction: column; align-items: center; position: relative;">
+                    <a href="index.html" style="display: inline-block; position: relative; top: 3px; left: 40px;">
+                        <img src="./assets/images/Acting Director (7).png" alt="Logo Bamtech" style="width: 40px; height: auto; cursor: pointer;">
+                    </a>
+                    <a href="#hero">
+                        <h1><span style="color: #90c73b;">Bam</span><span style="color: #fbfbfb;">Tech</span></h1>
+                    </a>
+                    <p style="font-size: 09px; color: #fbfbfb; margin-top: 0.1px;">Solutions for Smart Consumers</p>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="#hero" data-after="Home">INICIO</a></li>
+                        <li><a href="#services" data-after="Service">SERVICIOS</a></li>
+                        <li><a href="#projects" data-after="Projects">PROYECTOS</a></li>
+                        <li><a href="#about" data-after="About">NOSOTROS</a></li>
+                        <li><a href="#CLIENTES" data-after="Contact">CLIENTES</a></li>
+                        <li><a href="marca.html">MARCAS</a></li>
+                        <li><a href="#contact" data-after="Contact">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
 
-  <!-- Sección de Categorías de Productos -->
-  <section class="productos-categorias">
-    <h2>Productos Destacados</h2>
+    <!-- Brands Section -->
+    <section id="brands">
+        <div class="brands container">
+            <h1 class="section-title">Nuestras <span>Marcas</span></h1>
+            <p>Contamos con productos de marcas líderes en el mercado, garantizando calidad y seguridad en todas nuestras instalaciones.</p>
 
-    <!-- Categoría 1: Cámaras de Seguridad -->
-    <div class="categoria-item">
-      <img src="https://via.placeholder.com/300x200" alt="Cámara de seguridad">
-      <h3>Cámaras de Seguridad</h3>
-      <p>Elige entre nuestras cámaras de seguridad con visión nocturna, detección de movimiento y monitoreo remoto.</p>
-      <button>Ver más</button>
-    </div>
+            <!-- Brand 1 -->
+            <div class="brand-item">
+                <img src="https://via.placeholder.com/200x100" alt="Marca 1">
+                <h2>Marca 1</h2>
+                <p>Descripción breve de los productos de esta marca y sus características.</p>
+            </div>
 
-    <!-- Categoría 2: Sistemas de Alarmas -->
-    <div class="categoria-item">
-      <img src="https://via.placeholder.com/300x200" alt="Sistema de alarma">
-      <h3>Sistemas de Alarmas</h3>
-      <p>Protege tu hogar o negocio con nuestros sistemas de alarma avanzados, fáciles de instalar y con alertas en tiempo real.</p>
-      <button>Ver más</button>
-    </div>
+            <!-- Brand 2 -->
+            <div class="brand-item">
+                <img src="https://via.placeholder.com/200x100" alt="Marca 2">
+                <h2>Marca 2</h2>
+                <p>Descripción breve de los productos de esta marca y sus características.</p>
+            </div>
 
-    <!-- Categoría 3: Cerraduras Inteligentes -->
-    <div class="categoria-item">
-      <img src="https://via.placeholder.com/300x200" alt="Cerradura inteligente">
-      <h3>Cerraduras Inteligentes</h3>
-      <p>Cerraduras electrónicas con acceso mediante huella dactilar, control remoto y monitoreo a través de tu móvil.</p>
-      <button>Ver más</button>
-    </div>
+            <!-- Brand 3 -->
+            <div class="brand-item">
+                <img src="https://via.placeholder.com/200x100" alt="Marca 3">
+                <h2>Marca 3</h2>
+                <p>Descripción breve de los productos de esta marca y sus características.</p>
+            </div>
 
-  </section>
+            <!-- Brand 4 -->
+            <div class="brand-item">
+                <img src="https://via.placeholder.com/200x100" alt="Marca 4">
+                <h2>Marca 4</h2>
+                <p>Descripción breve de los productos de esta marca y sus características.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Brands Section -->
 
-  <!-- Pie de página -->
-  <footer>
-    <p>&copy; 2025 IBS Security. Todos los derechos reservados.</p>
-    <div class="socials">
-      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span style="color: #90c73b;">BUSINESS AND MULTISERVICE TECHNOLOGY BAMTECH SRL</span></h1>
+            </div>
+            <h2>Experiencia y profesionalismo en cada área</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="./assets/icons/linkedin.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="./assets/icons/whatsapp-icone.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="./assets/icons/Facebook-icono.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="./assets/icons/INSTAGRAM-ICONO-PNG.png" /></a>
+                </div>
+            </div>
+            <p>Copyright © 2025 Bamtech SRL. Todos los derechos reservados</p>
+        </div>
+    </section>
+    <!-- End Footer -->
 
+    <script src="./index.js"></script>
 </body>
+
 </html>
