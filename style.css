@@ -754,11 +754,13 @@ p {
   margin: 0 5px;
 }
 #footer .social-item img {
-  filter: grayscale(1);
-  transition: 0.3s ease filter;
+  /* Eliminamos el filtro y la transición */
+  filter: none;
+  transition: none; /* No hay transición */
 }
 #footer .social-item:hover img {
-  filter: grayscale(0);
+  /* Eliminamos el filtro de color en hover */
+  filter: none;
 }
 #footer p {
   color: white;
