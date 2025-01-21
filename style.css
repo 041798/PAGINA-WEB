@@ -91,6 +91,7 @@ p {
   top: 0;
   width: 100vw;
   height: auto;
+  background-color: #000; /* Fondo fijo negro */
 }
 
 #header .header {
@@ -183,7 +184,7 @@ p {
 
 #header .nav-list ul {
   list-style-type: none;
-  background-color: HSL(70°, 2%, 0%);
+  background-color: #000; /* Fondo negro para el menú */
   display: flex;
   flex-direction: column;
   align-items: center;
