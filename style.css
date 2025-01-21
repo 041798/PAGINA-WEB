@@ -566,11 +566,11 @@ p {
   }
 }
 
-/* Aseguramos que el mapa ocupe el 100% del ancho disponible */
+
 .map-container {
     width: 100%;
     height: 400px; /* Ajusta la altura como desees */
-    margin-bottom: 30px; /* Separación del mapa y el contenido siguiente */
+    margin-bottom: 80px; /* Separación del mapa y el contenido siguiente */
 }
 
 /* Estilo para la sección que contiene el formulario y la información de contacto */
