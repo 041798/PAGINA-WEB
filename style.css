@@ -96,7 +96,7 @@ p {
 #header .header {
   min-height: 8vh;
   background-color: #000000;
-  transition: 0.3s ease background-color;
+  transition:none;
 }
 
 #header .nav-bar {
