@@ -579,7 +579,7 @@ p {
     justify-content: space-between;
     gap: 20px; /* Espaciado entre el formulario y la información */
     flex-wrap: wrap; /* Si hay poco espacio, se ajusta */
-    margin-top: 50px; /* Añadir un poco de espacio superior si es necesario */
+    margin-top: 100px; /* Añadir un poco de espacio superior si es necesario */
 }
 
 /* Hacemos que la información de contacto y el formulario ocupen la misma proporción de espacio */
