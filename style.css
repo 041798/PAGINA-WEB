@@ -121,9 +121,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
   cursor: pointer;
   transform: scale(0.8);
+  z-index: 100;
 }
 
 #header .hamburger:after {
@@ -152,7 +152,7 @@ p {
   height: 2px;
   width: 30px;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 #header .hamburger .bar::before,
@@ -214,17 +214,8 @@ p {
   padding: 20px;
 }
 
-#header .nav-list ul a::after {
-  content: attr(data-after);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  color: rgba(240, 248, 255, 0.021);
-  font-size: 13rem;
-  letter-spacing: 50px;
-  z-index: -1;
-  transition: 0.3s ease letter-spacing;
+#header .nav-list ul li:hover a {
+  color: #2dea55;
 }
 
 #header .nav-list ul li:hover a::after {
