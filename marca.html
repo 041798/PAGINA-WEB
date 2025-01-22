@@ -28,32 +28,48 @@
 <body>
     <!-- Header -->
     <section id="header">
-        <div class="header container">
-            <div class="nav-bar">
-                <div class="brand" style="display: flex; flex-direction: column; align-items: center; position: relative;">
-                    <a href="index.html" style="display: inline-block; position: relative; top: 3px; left: 40px;">
-                        <img src="./assets/images/iconos.png" alt="Logo Bamtech" style="width: 40px; height: auto; cursor: pointer;">
-                    </a>
-                    <a href="#INICIO">
-                        <h1><span style="color: #90c73b;">Bam</span><span style="color: #fbfbfb;">Tech</span></h1>
-                    </a>
-                    <p style="font-size: 09px; color: #fbfbfb; margin-top: 0.1px;">Solutions for Smart Consumers</p>
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand" style="display: flex; flex-direction: column; align-items: center; position: relative;">
+                <a href="index.html" style="display: inline-block; position: relative; top: 3px; left: 40px;">
+                    <img src="./assets/images/iconos.png" alt="Logo Bamtech" style="width: 40px; height: auto; cursor: pointer;">
+                </a>
+                <a href="#INICIO">
+                    <h1><span style="color: #90c73b;">Bam</span><span style="color: #fbfbfb;">Tech</span></h1>
+                </a>
+                <p style="font-size: 09px; color: #fbfbfb; margin-top: 0.1px;">Solutions for Smart Consumers</p>
+            </div>
+            <div class="nav-list">
+                <!-- Botón de menú móvil -->
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-                <div class="nav-list">
-                    <ul>
-                        <li><a href="index.html">INICIO</a></li>
-                        <li><a href="index.html">SERVICIOS</a></li>
-                        <li><a href="index.html">PROYECTOS</a></li>
-                        <li><a href="index.html">NOSOTROS</a></li>
-                        <li><a href="index.html">CLIENTES</a></li>
-                        <li><a href="marca.html">MARCAS</a></li>
-                        <li><a href="Contacto.html">CONTACTO</a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="index.html">SERVICIOS</a></li>
+                    <li><a href="index.html">PROYECTOS</a></li>
+                    <li><a href="index.html">NOSOTROS</a></li>
+                    <li><a href="index.html">CLIENTES</a></li>
+                    <li><a href="marca.html">MARCAS</a></li>
+                    <li><a href="Contacto.html">CONTACTO</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-    <!-- End Header -->
+    </div>
+</section>
+<!-- End Header -->
+
+<script>
+    // Función para manejar el click en el botón de menú (hamburger)
+    const hamburger = document.querySelector('.hamburger');
+    const navList = document.querySelector('.nav-list');
+
+    hamburger.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    });
+</script>
 
  <!-- Service Section -->
     <section id="services">
