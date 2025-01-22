@@ -112,7 +112,7 @@ p {
 
 /* Estilo del botón de hamburguesa */
 #header .hamburger {
-  border: 3px solid rgb(10, 234, 28);
+  border: 3px solid #2dea55;
   height: 60px;
   width: 60px;
   display: inline-block;
@@ -129,7 +129,7 @@ p {
 
 #header .hamburger:after {
   content: "";
-  border: 3px solid rgb(10, 234, 28);
+  border: 3px solid  #2dea55;
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -209,7 +209,7 @@ p {
   font-weight: 500;
   letter-spacing: 0.2rem;
   text-decoration: none;
-  color: rgb(10, 204, 10);
+  color: #ffffff;
   text-transform: uppercase;
   display: block;
   padding: 20px;
@@ -234,31 +234,11 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-  color: rgb(249, 245, 245);
+  color: #2dea55;
 }
 
 @media screen and (min-width: 1200px) {
   #header .hamburger {
-    display: none;
-  }
-
-  #header .nav-list ul {
-    position: initial;
-    display: block;
-    height: auto;
-    width: fit-content;
-    background-color: transparent;
-  }
-
-  #header .nav-list ul li {
-    display: inline-block;
-  }
-
-  #header .nav-list ul a {
-    font-size: 1.8rem;
-  }
-
-  #header .nav-list ul a::after {
     display: none;
   }
 }
