@@ -1,0 +1,19 @@
+BAMTECH SRL — paquete web con mejoras SEO
+
+Contenido:
+- index.html: página principal, SEO local, datos estructurados, FAQ y enlaces internos.
+- servicios/: páginas específicas para CCTV, alarmas, control de acceso, domótica y mantenimiento.
+- robots.txt y sitemap.xml: orientación para rastreo e indexación.
+- estilos.css y script.js: diseño y funciones.
+- img/logo-bamtech.png: logo original.
+
+Antes de publicar:
+1. Sube el contenido de la carpeta BAMTECH_WEB_ACTUALIZADA al directorio público del dominio bamtechsrl.com, manteniendo la carpeta servicios/ y img/.
+2. Verifica que las URLs canónicas correspondan al dominio final y que HTTPS esté activo.
+3. Comprueba el mapa, los logotipos externos, WhatsApp, correo y formulario.
+4. Registra/verifica bamtechsrl.com en Google Search Console y envía https://bamtechsrl.com/sitemap.xml.
+5. Reclama/verifica el Perfil de Empresa de Google y completa dirección, categoría, horario real, fotos auténticas y servicios. Pide reseñas genuinas a clientes y responde a todas.
+6. Añade los enlaces reales de Facebook, Instagram, YouTube y otras redes una vez confirmadas las URLs oficiales. No se han inventado perfiles sociales.
+7. Añade fotos reales de instalaciones y proyectos autorizados; las tarjetas actuales son categorías de soluciones, no testimonios ni proyectos reales.
+
+SEO no garantiza el primer puesto. La posición depende de relevancia, distancia y notoriedad, así como de competencia, calidad, reputación y tiempo de rastreo. Mantén información precisa y actualizada.
